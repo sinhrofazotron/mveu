@@ -1,0 +1,44 @@
+.Lk{
+    width: 100%;
+    height: 700px;/*calc(100vh - 50px - 50px);/*вычисление высоты*/
+    background-color: rgb(223, 230, 220);
+    display: flex;
+    justify-content: center;
+    
+}
+.Lk .user-profile{
+    margin: auto ;
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    background-color: rgb(141, 204, 204);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Lk img{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(151, 153, 153);
+    border: 2px black solid; 
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.Lk list{
+    list-style-type: none;
+    align-items: left;
+    padding: 15px;
+    
+}
+
+.Lk botton{
+    margin: auto;
+    margin-top: 25px;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: rgb(174, 189, 189);
+}

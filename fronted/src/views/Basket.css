@@ -1,0 +1,16 @@
+.Basket{
+    width: 100%;
+    height:calc(100vh - 50px - 50px);/*вычисление высоты*/
+    background-color: rgb(205, 228, 185);
+}
+.Basket h1{
+    padding:15px;
+}
+.Basket-wind{
+    margin: auto ;
+    width: 400px;
+    height: 500px;
+   background-color: rgb(141, 204, 204);
+   border-radius: 10px;
+   
+}

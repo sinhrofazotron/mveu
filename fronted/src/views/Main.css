@@ -1,0 +1,33 @@
+.Main{
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);/*вычисление высоты*/
+    background-color: rgba(178, 190, 67, 0.438);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    grid-gap: 30px;
+}
+@media(max-width:900px){
+   .Main{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         padding: 20px;
+         grid-gap: 20px;
+   }
+}
+@media(max-width:609px){
+    .Main{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          padding: 20px;
+          grid-gap: 20px;
+    }
+ }
+ @media(max-width:620px){
+    .Main{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          padding: 15px;
+          grid-gap: 10px;
+    }
+ }
